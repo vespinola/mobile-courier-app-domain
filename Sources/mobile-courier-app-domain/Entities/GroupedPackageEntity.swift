@@ -10,10 +10,15 @@ import Foundation
 public struct GroupedPackageEntity: Identifiable {
   public var id: Int { shipmentCode }
 
-  var shipmentCode: Int
-  var packages: [PackageEntity]
+  public var shipmentCode: Int
+  public var packages: [PackageEntity]
 
-  var totalCost: Decimal {
+  public init(shipmentCode: Int, packages: [PackageEntity]) {
+    self.shipmentCode = shipmentCode
+    self.packages = packages
+  }
+
+  public var totalCost: Decimal {
     let thousand: Decimal = 1000
     let cost = packages.reduce(.zero) {
       $0 + $1.packageCostInGuaranies
@@ -24,29 +29,29 @@ public struct GroupedPackageEntity: Identifiable {
     return rounded.multiplying(by: thousand as NSDecimalNumber) as Decimal
   }
 
-  var totalWeight: Decimal {
+  public var totalWeight: Decimal {
     packages.reduce(.zero) {
       $0 + $1.packageWeight
     }
   }
 
-  var formattedTotalCost: String {
+  public var formattedTotalCost: String {
     NSDecimalNumber(decimal: totalCost).applyFormatForAmountInGuaranies()
   }
 
-  var formattedDate: String {
+  public var formattedDate: String {
     packages.first?.formattedDate ?? ""
   }
 
-  var shipmentDate: Date? {
+  public var shipmentDate: Date? {
     packages.first?.shipmentDate.getDateFrom(formatType: .server)
   }
 
-  var formattedId: String {
+  public var formattedId: String {
     NSDecimalNumber(value: shipmentCode).applyFormatForIdentifier()
   }
 
-  var packageCurrentStatus: ShipmentStatus {
+  public var packageCurrentStatus: ShipmentStatus {
     guard let shippingStatus = packages.first?.shipmentStatus,
           let status = packages.first?.status else {
       return .unknown
@@ -64,7 +69,7 @@ public struct GroupedPackageEntity: Identifiable {
     return status.caseInsensitiveCompare("C") == .orderedSame ? .inconsistent : .unknown
   }
 
-  var accessibilityLabel: String {
+  public var accessibilityLabel: String {
     NSLocalizedString(
       "Shipment \(shipmentCode) with a total cost of \(totalCost), is \(packageCurrentStatus.localized).",
       comment: ""

@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
   func getStringFromDate(formatType: DateFormatType) -> String {
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = formatType.rawValue

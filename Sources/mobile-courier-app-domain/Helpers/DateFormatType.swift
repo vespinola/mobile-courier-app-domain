@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum DateFormatType: String {
+public enum DateFormatType: String {
   case server = "yyyy-MM-dd'T'HH:mm:ssZ"
   case display = "MMMM d, yyyy"
 }

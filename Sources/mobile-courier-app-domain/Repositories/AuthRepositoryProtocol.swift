@@ -7,11 +7,11 @@
 
 import Foundation
 
-protocol AuthRepositoryProtocol {
+public protocol AuthRepositoryProtocol {
   func performLogin(email: String, password: String) async throws
   func performLogout()
 }
 
-extension AuthRepositoryProtocol {
+public extension AuthRepositoryProtocol {
   func performLogout() { }
 }

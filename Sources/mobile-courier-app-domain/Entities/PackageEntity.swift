@@ -8,19 +8,35 @@
 import Foundation
 
 public struct PackageEntity: Identifiable, Hashable {
-  let status: String
-  let shipmentStatus: String
-  let packagePickupDate: String
-  let shipmentMethod: String
-  let clientPriceRate: Decimal
-  let packageDescription: String
-  let packageTrackingNumber: String
-  let quotation: Decimal
-  let shipmentDate: String
-  let packageWeight: Decimal
-  let shipmentCode: Int
+  public let status: String
+  public let shipmentStatus: String
+  public let packagePickupDate: String
+  public let shipmentMethod: String
+  public let clientPriceRate: Decimal
+  public let packageDescription: String
+  public let packageTrackingNumber: String
+  public let quotation: Decimal
+  public let shipmentDate: String
+  public let packageWeight: Decimal
+  public let shipmentCode: Int
   public let id: Int
-  let packagePrice: Decimal
+  public let packagePrice: Decimal
+
+  public init(status: String, shipmentStatus: String, packagePickupDate: String, shipmentMethod: String, clientPriceRate: Decimal, packageDescription: String, packageTrackingNumber: String, quotation: Decimal, shipmentDate: String, packageWeight: Decimal, shipmentCode: Int, id: Int, packagePrice: Decimal) {
+    self.status = status
+    self.shipmentStatus = shipmentStatus
+    self.packagePickupDate = packagePickupDate
+    self.shipmentMethod = shipmentMethod
+    self.clientPriceRate = clientPriceRate
+    self.packageDescription = packageDescription
+    self.packageTrackingNumber = packageTrackingNumber
+    self.quotation = quotation
+    self.shipmentDate = shipmentDate
+    self.packageWeight = packageWeight
+    self.shipmentCode = shipmentCode
+    self.id = id
+    self.packagePrice = packagePrice
+  }
 }
 
 public extension PackageEntity {

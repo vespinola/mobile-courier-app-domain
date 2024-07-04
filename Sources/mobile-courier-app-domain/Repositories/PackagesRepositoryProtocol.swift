@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol PackagesRepositoryProtocol {
+public protocol PackagesRepositoryProtocol {
   func getWithdrawnPackages() async throws -> [GroupedPackageEntity]
   func getPackagesForWithdrawl() async throws -> [GroupedPackageEntity]
 }

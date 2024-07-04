@@ -18,12 +18,21 @@ public final class AddressesEntity: ObservableObject {
 }
 
 public struct ShipmentsEntity {
-  let city: String
-  var client: ClientEntity?
-  let address: String
-  let company: String
-  let country: String
-  let phone: String
+  public let city: String
+  public var client: ClientEntity?
+  public let address: String
+  public let company: String
+  public let country: String
+  public let phone: String
+
+  public init(city: String, client: ClientEntity? = nil, address: String, company: String, country: String, phone: String) {
+    self.city = city
+    self.client = client
+    self.address = address
+    self.company = company
+    self.country = country
+    self.phone = phone
+  }
 }
 
 public struct ClientEntity {
@@ -37,6 +46,19 @@ public struct ClientEntity {
   let taxId: String
   let rate: Double
   let userName: String
+
+  public init(id: Int, authorizeEmail: Int, authorizedCi: String, city: Int, clientCellPhone: String, clientCi: String, clientPhone: String, taxId: String, rate: Double, userName: String) {
+    self.id = id
+    self.authorizeEmail = authorizeEmail
+    self.authorizedCi = authorizedCi
+    self.city = city
+    self.clientCellPhone = clientCellPhone
+    self.clientCi = clientCi
+    self.clientPhone = clientPhone
+    self.taxId = taxId
+    self.rate = rate
+    self.userName = userName
+  }
 }
 
 public extension AddressesEntity {

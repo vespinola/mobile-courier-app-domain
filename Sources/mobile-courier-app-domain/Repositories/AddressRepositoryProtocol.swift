@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol AddressRepositoryProtocol {
+public protocol AddressRepositoryProtocol {
   func getAddress() async throws -> AddressesEntity
 }
