@@ -10,18 +10,6 @@
 		1B4A187A2C363BD40004C1EE /* MobileCourierDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4A18712C363BD40004C1EE /* MobileCourierDomain.framework */; };
 		1B4A187F2C363BD40004C1EE /* MobileCourierDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A187E2C363BD40004C1EE /* MobileCourierDomainTests.swift */; };
 		1B4A18802C363BD40004C1EE /* MobileCourierDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4A18742C363BD40004C1EE /* MobileCourierDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B4A189A2C363C550004C1EE /* AddressesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A18892C363C550004C1EE /* AddressesEntity.swift */; };
-		1B4A189B2C363C550004C1EE /* GroupedPackageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A188A2C363C550004C1EE /* GroupedPackageEntity.swift */; };
-		1B4A189C2C363C550004C1EE /* LoginEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A188B2C363C550004C1EE /* LoginEntity.swift */; };
-		1B4A189D2C363C550004C1EE /* PackageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A188C2C363C550004C1EE /* PackageEntity.swift */; };
-		1B4A189E2C363C550004C1EE /* ShipmentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A188D2C363C550004C1EE /* ShipmentStatus.swift */; };
-		1B4A189F2C363C550004C1EE /* Date+Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A188F2C363C550004C1EE /* Date+Domain.swift */; };
-		1B4A18A02C363C550004C1EE /* NSDecimalNumber+Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A18902C363C550004C1EE /* NSDecimalNumber+Domain.swift */; };
-		1B4A18A12C363C550004C1EE /* String+Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A18912C363C550004C1EE /* String+Domain.swift */; };
-		1B4A18A22C363C550004C1EE /* DateFormatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A18932C363C550004C1EE /* DateFormatType.swift */; };
-		1B4A18A32C363C550004C1EE /* AddressRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A18952C363C550004C1EE /* AddressRepositoryProtocol.swift */; };
-		1B4A18A42C363C550004C1EE /* AuthRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A18962C363C550004C1EE /* AuthRepositoryProtocol.swift */; };
-		1B4A18A52C363C550004C1EE /* PackagesRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A18972C363C550004C1EE /* PackagesRepositoryProtocol.swift */; };
 		1B4A18A72C363DB70004C1EE /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A18A62C363DB70004C1EE /* Package.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,18 +28,6 @@
 		1B4A18742C363BD40004C1EE /* MobileCourierDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileCourierDomain.h; sourceTree = "<group>"; };
 		1B4A18792C363BD40004C1EE /* MobileCourierDomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCourierDomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B4A187E2C363BD40004C1EE /* MobileCourierDomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCourierDomainTests.swift; sourceTree = "<group>"; };
-		1B4A18892C363C550004C1EE /* AddressesEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressesEntity.swift; sourceTree = "<group>"; };
-		1B4A188A2C363C550004C1EE /* GroupedPackageEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupedPackageEntity.swift; sourceTree = "<group>"; };
-		1B4A188B2C363C550004C1EE /* LoginEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginEntity.swift; sourceTree = "<group>"; };
-		1B4A188C2C363C550004C1EE /* PackageEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageEntity.swift; sourceTree = "<group>"; };
-		1B4A188D2C363C550004C1EE /* ShipmentStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipmentStatus.swift; sourceTree = "<group>"; };
-		1B4A188F2C363C550004C1EE /* Date+Domain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Domain.swift"; sourceTree = "<group>"; };
-		1B4A18902C363C550004C1EE /* NSDecimalNumber+Domain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDecimalNumber+Domain.swift"; sourceTree = "<group>"; };
-		1B4A18912C363C550004C1EE /* String+Domain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Domain.swift"; sourceTree = "<group>"; };
-		1B4A18932C363C550004C1EE /* DateFormatType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatType.swift; sourceTree = "<group>"; };
-		1B4A18952C363C550004C1EE /* AddressRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressRepositoryProtocol.swift; sourceTree = "<group>"; };
-		1B4A18962C363C550004C1EE /* AuthRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRepositoryProtocol.swift; sourceTree = "<group>"; };
-		1B4A18972C363C550004C1EE /* PackagesRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackagesRepositoryProtocol.swift; sourceTree = "<group>"; };
 		1B4A18A62C363DB70004C1EE /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				1B4A18A62C363DB70004C1EE /* Package.swift */,
-				1B4A18992C363C550004C1EE /* Source */,
 				1B4A18732C363BD40004C1EE /* MobileCourierDomain */,
 				1B4A187D2C363BD40004C1EE /* MobileCourierDomainTests */,
 				1B4A18722C363BD40004C1EE /* Products */,
@@ -108,57 +83,6 @@
 				1B4A187E2C363BD40004C1EE /* MobileCourierDomainTests.swift */,
 			);
 			path = MobileCourierDomainTests;
-			sourceTree = "<group>";
-		};
-		1B4A188E2C363C550004C1EE /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-				1B4A18892C363C550004C1EE /* AddressesEntity.swift */,
-				1B4A188A2C363C550004C1EE /* GroupedPackageEntity.swift */,
-				1B4A188B2C363C550004C1EE /* LoginEntity.swift */,
-				1B4A188C2C363C550004C1EE /* PackageEntity.swift */,
-				1B4A188D2C363C550004C1EE /* ShipmentStatus.swift */,
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		1B4A18922C363C550004C1EE /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				1B4A188F2C363C550004C1EE /* Date+Domain.swift */,
-				1B4A18902C363C550004C1EE /* NSDecimalNumber+Domain.swift */,
-				1B4A18912C363C550004C1EE /* String+Domain.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		1B4A18942C363C550004C1EE /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				1B4A18932C363C550004C1EE /* DateFormatType.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		1B4A18982C363C550004C1EE /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				1B4A18952C363C550004C1EE /* AddressRepositoryProtocol.swift */,
-				1B4A18962C363C550004C1EE /* AuthRepositoryProtocol.swift */,
-				1B4A18972C363C550004C1EE /* PackagesRepositoryProtocol.swift */,
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		1B4A18992C363C550004C1EE /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				1B4A188E2C363C550004C1EE /* Entities */,
-				1B4A18922C363C550004C1EE /* Extensions */,
-				1B4A18942C363C550004C1EE /* Helpers */,
-				1B4A18982C363C550004C1EE /* Repositories */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,18 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B4A18A12C363C550004C1EE /* String+Domain.swift in Sources */,
-				1B4A18A22C363C550004C1EE /* DateFormatType.swift in Sources */,
-				1B4A189B2C363C550004C1EE /* GroupedPackageEntity.swift in Sources */,
-				1B4A18A42C363C550004C1EE /* AuthRepositoryProtocol.swift in Sources */,
-				1B4A18A52C363C550004C1EE /* PackagesRepositoryProtocol.swift in Sources */,
-				1B4A189A2C363C550004C1EE /* AddressesEntity.swift in Sources */,
-				1B4A189C2C363C550004C1EE /* LoginEntity.swift in Sources */,
-				1B4A189F2C363C550004C1EE /* Date+Domain.swift in Sources */,
-				1B4A189D2C363C550004C1EE /* PackageEntity.swift in Sources */,
-				1B4A18A02C363C550004C1EE /* NSDecimalNumber+Domain.swift in Sources */,
-				1B4A18A32C363C550004C1EE /* AddressRepositoryProtocol.swift in Sources */,
-				1B4A189E2C363C550004C1EE /* ShipmentStatus.swift in Sources */,
 				1B4A18A72C363DB70004C1EE /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +356,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,7 +389,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
