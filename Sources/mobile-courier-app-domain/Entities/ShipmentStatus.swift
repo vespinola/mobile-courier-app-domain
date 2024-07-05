@@ -20,17 +20,17 @@ public enum ShipmentStatus: String, CaseIterable, Identifiable {
   public var localized: String {
     switch self {
     case .readyForPickup:
-      return NSLocalizedString("Ready for Pickup", comment: "")
+      return String(localized: "Ready for Pickup", bundle: .module)
     case .processing:
-      return NSLocalizedString("Processing", comment: "")
+      return String(localized: "Processing", bundle: .module)
     case .onTheWay:
-      return NSLocalizedString("On the Way", comment: "")
+      return String(localized: "On the Way", bundle: .module)
     case .inLocker:
-      return NSLocalizedString("In Locker", comment: "")
+      return String(localized: "In Locker", bundle: .module)
     case .inconsistent:
-      return NSLocalizedString("Inconsistent", comment: "")
+      return String(localized: "Inconsistent", bundle: .module)
     case .unknown:
-      return NSLocalizedString("Unknown Status", comment: "")
+      return String(localized: "Unknown Status", bundle: .module)
     }
   }
 }
